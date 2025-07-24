@@ -1,7 +1,6 @@
 package org.example.resources;
 
 
-import org.example.entities.Categoria;
 import org.example.entities.Marca;
 import org.example.services.MarcaService;
 import org.springframework.beans.factory.annotation.Autowired;
