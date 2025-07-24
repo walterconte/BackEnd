@@ -28,9 +28,6 @@
         @JoinColumn(name = "FPG_ID", nullable = false)
         private FormaPagamento formaPagamento;
 
-        @ManyToOne(optional = false)
-        @JoinColumn(name = "FUN_ID", nullable = false)
-        private Funcionario funcionario;
 
         @ManyToOne(optional = false)
         @JoinColumn(name = "CLI_ID", nullable = false)
@@ -76,14 +73,6 @@
 
         public void setFormaPagamento(FormaPagamento formaPagamento) {
             this.formaPagamento = formaPagamento;
-        }
-
-        public Funcionario getFuncionario() {
-            return funcionario;
-        }
-
-        public void setFuncionario(Funcionario funcionario) {
-            this.funcionario = funcionario;
         }
 
         public Cliente getCliente() {

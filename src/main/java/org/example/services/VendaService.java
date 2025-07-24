@@ -27,8 +27,6 @@ public class VendaService {
     @Autowired
     private ClienteRepository clienteRepository;
 
-    @Autowired
-    private FuncionarioRepository funcionarioRepository;
 
     @Autowired
     private FormaPagamentoRepository formaPagamentoRepository;
@@ -102,14 +100,11 @@ public class VendaService {
         // Carregar entidades relacionadas do banco para garantir que são gerenciadas
         var cliente = clienteRepository.findById(venda.getCliente().getCliId())
                 .orElseThrow(() -> new ResourceNotFoundException("Cliente não encontrado"));
-        var funcionario = funcionarioRepository.findById(venda.getFuncionario().getFunId())
-                .orElseThrow(() -> new ResourceNotFoundException("Funcionario não encontrado"));
         var formaPagamento = formaPagamentoRepository.findById(venda.getFormaPagamento().getFpgId())
                 .orElseThrow(() -> new ResourceNotFoundException("FormaPagamento não encontrado"));
 
         // Atualizar os campos básicos da venda
         vendaSistema.setCliente(cliente);
-        vendaSistema.setFuncionario(funcionario);
         vendaSistema.setFormaPagamento(formaPagamento);
         vendaSistema.setVndDataVenda(venda.getVndDataVenda());
         vendaSistema.setVndConcluida(venda.getVndConcluida());

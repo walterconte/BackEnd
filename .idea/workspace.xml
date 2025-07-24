@@ -6,19 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b5b214c6-7620-4919-bbf8-87987e5f5c32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/FuncionarioDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/CargoFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/CargoFuncRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/CargoFuncRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/FuncionarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/CargoFuncResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/resources/CargoFuncResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/FuncionarioResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/resources/FuncionarioResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CargoFuncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CargoFuncService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/FuncionarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/FuncionarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/CargoFuncRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/CargoFuncResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/FuncionarioResources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CargoFuncService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/FuncionarioService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/VendaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/VendaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Usuario/Back/Senai-BackEnd-Final",
+    "last_opened_file_path": "C:/Users/Usuario/Back/BackEnd",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
