@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b214c6-7620-4919-bbf8-87987e5f5c32" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Categoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/CategoriaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/CategoriaResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/MarcaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/resources/MarcaResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CategoriaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/FormaPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/FormaPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/FormaPagamentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/FormaPagamentoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/ProdutoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Senai/Desktop/Projeto/Back/BackEnd",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"

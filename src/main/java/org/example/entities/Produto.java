@@ -42,16 +42,6 @@ public class Produto implements Serializable {
     private int proQuantidade;
 
 
-    @Size(max = 200, message = "Descrição deve ter no máximo 200 caracteres!")
-    @Column(name = "PRO_DESCRICAO", length = 200)
-    private String proDescricao;
-
-    @NotBlank(message = "Codigo de Barras é obrigatório!")
-    @Size(max = 13, message = "Codigo de Barras deve ter no máximo 13 caracteres!")
-    @Column(name = "PRO_CODIGOBARRAS", length = 13, nullable = false, unique = true)
-    private String proCodigoBarras;
-
-
     @NotNull(message = "Produto Ativo é obrigatório!")
     @Column(name = "PRO_ATIVO", nullable = false)
     private Boolean proAtivo;
@@ -66,7 +56,7 @@ public class Produto implements Serializable {
     public Produto() {
     }
 
-    public Produto(Long proId, Fornecedor fornecedor, Marca marca, String proNome, Double proPrecoCusto, Double proPrecoVenda, int proQuantidade, String proDescricao, String proCodigoBarras, Boolean proAtivo, LocalDateTime proDataCadastro, LocalDateTime proDataAtualizacao) {
+    public Produto(Long proId, Fornecedor fornecedor, Marca marca, String proNome, Double proPrecoCusto, Double proPrecoVenda, int proQuantidade, Boolean proAtivo, LocalDateTime proDataCadastro, LocalDateTime proDataAtualizacao) {
         this.proId = proId;
         this.fornecedor = fornecedor;
         this.marca = marca;
@@ -74,8 +64,6 @@ public class Produto implements Serializable {
         this.proPrecoCusto = proPrecoCusto;
         this.proPrecoVenda = proPrecoVenda;
         this.proQuantidade = proQuantidade;
-        this.proDescricao = proDescricao;
-        this.proCodigoBarras = proCodigoBarras;
         this.proAtivo = proAtivo;
         this.proDataCadastro = proDataCadastro;
         this.proDataAtualizacao = proDataAtualizacao;
@@ -137,22 +125,6 @@ public class Produto implements Serializable {
 
     public void setProQuantidade(int proQuantidade) {
         this.proQuantidade = proQuantidade;
-    }
-
-    public String getProDescricao() {
-        return proDescricao;
-    }
-
-    public void setProDescricao(String proDescricao) {
-        this.proDescricao = proDescricao;
-    }
-
-    public String getProCodigoBarras() {
-        return proCodigoBarras;
-    }
-
-    public void setProCodigoBarras(String proCodigoBarras) {
-        this.proCodigoBarras = proCodigoBarras;
     }
 
     public Boolean getProAtivo() {
